@@ -1,0 +1,46 @@
+.body, html{
+  height: 100%;
+  margin:0;
+  font-size: 16px;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  line-height: 1.8em;
+  color: #666;
+}
+
+.navbar .collapse .navbar-nav li{
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.container{
+  width: 100%;
+  padding-top: 100px;
+}
+
+.title{
+  top:50%;
+  width:100%;
+  text-align: center;
+  color:#000;
+  font-size:27px;
+  letter-spacing: 8px
+}
+
+#gold ,#silver, #bronze{
+  background: #f1f1f1;
+  margin-top:1px;
+  padding: 50px 0 100px 0;
+}
+
+
+
+footer{
+  text-align: center;
+  padding:10px;
+  padding-top: 20px;
+  color:#ffffff;
+  background: #282e34;
+  width: 100%;
+  font-family: Roboto;
+}

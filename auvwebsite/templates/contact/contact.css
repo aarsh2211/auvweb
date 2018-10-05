@@ -1,0 +1,87 @@
+.body, html{
+  height: 100%
+  margin:0;
+  font-size: 16px;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  line-height: 1.8em;
+  color: #666;
+}
+
+.navbar .collapse .navbar-nav li{
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.pimg1{
+  position:relative;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  opacity: 0.8;
+  background-image: url('sblock.jpg');
+  height: 700px;
+}
+
+.ptext{
+  position: absolute;
+  top:50%;
+  width:100%;
+  text-align: center;
+  color:#000;
+  font-size:40px;
+  font-weight: 600;
+  letter-spacing: 8px
+}
+
+.ptext2{
+  position: absolute;
+  top:50%;
+  width:100%;
+  text-align: center;
+  color:#000;
+  font-size:27px;
+  letter-spacing: 8px;
+  margin-top: 100px;
+}
+
+.ptext .border{
+  background-color: #111;
+  color:#fff;
+  padding:20px;
+}
+
+.section-light{
+  text-align: center;
+  padding:50px 80px;
+  font-family: Roboto;
+  background-color: #92a6ef;
+  color: #111111;
+}
+
+#contact{
+  margin-top: 20px;
+  margin-bottom: 20px;
+
+}
+
+.details .container{
+  background-color: #111111;
+}
+
+.info{
+  background-color: #f1f1f1;
+  padding: 20px;
+  font-size: 17px;
+}
+
+footer{
+  text-align: center;
+  padding:10px;
+  padding-top: 20px;
+  color:#ffffff;
+  background: #282e34;
+  width: 100%;
+  font-family: Roboto;
+}
